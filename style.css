@@ -1,0 +1,45 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: grid;
+  place-items: center;
+  /* * Always make sure your body has
+   enough height to center a div * */
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+}
+.attribution a {
+  color: #3e52a3;
+}
+.container {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 270px;
+  background-color: #ffffff;
+}
+img{
+  width: 240px;
+  border-radius: 10px;
+}
+header{
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-top: 15px;
+}
+p{
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.5;
+}
