@@ -11,7 +11,7 @@ body {
   /* * Always make sure your body has
    enough height to center a div * */
   height: 100vh;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 .attribution {
   font-size: 11px;
@@ -29,16 +29,16 @@ body {
   width: 270px;
   background-color: #ffffff;
 }
-img{
+img {
   width: 240px;
   border-radius: 10px;
 }
-header{
+header {
   font-weight: 700;
   font-size: 1.2rem;
-  padding-top: 15px;
+  padding: 15px 0;
 }
-p{
+p {
   font-size: 15px;
   font-weight: 400;
   opacity: 0.5;
